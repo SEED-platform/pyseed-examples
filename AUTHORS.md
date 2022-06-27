@@ -1,3 +1,3 @@
 # Contributors
 
-* Nicholas Long, NREL <https://github.com/nllong>
+- Nicholas Long, NREL <https://github.com/nllong>

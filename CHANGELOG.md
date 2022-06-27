@@ -1,6 +1,5 @@
 # Change Log
 
-
 ## Version 0.1.0 (unreleased)
 
-* Initial capabilities
+- Initial capabilities
