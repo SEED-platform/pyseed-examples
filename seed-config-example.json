@@ -1,0 +1,8 @@
+{
+  "name": "seed_api_test",
+  "base_url": "https://dev1.seed-platform.org",
+  "username": "user@company.com",
+  "api_key": "secure-key",
+  "port": 443,
+  "use_ssl": true
+}

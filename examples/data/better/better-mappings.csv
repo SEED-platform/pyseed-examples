@@ -1,0 +1,29 @@
+Raw Columns,units,SEED Table,SEED Columns
+Portfolio Manager ID,,PropertyState,pm_property_id
+Property Name,,PropertyState,property_name
+Street Address,,PropertyState,address_line_1
+Street Address 2,,PropertyState,address_line_2
+City/Municipality,,PropertyState,city
+State/Province,,PropertyState,state
+Other State/Province,,PropertyState,Other State
+Postal Code,,PropertyState,postal_code
+Country,,PropertyState,country
+Year Built,,PropertyState,year_built
+Property Type - Self-Selected,,PropertyState,property_type
+Construction Status,,PropertyState,Construction Status
+Gross Floor Area,ft**2,PropertyState,gross_floor_area
+GFA Units,,PropertyState,Gross Floor Area Units
+Occupancy (%),,PropertyState,Occupancy Percent
+Number of Buildings,,PropertyState,Number of Buildings
+How Many Buildings?,,PropertyState,building_count
+Parent Property Name (if Applicable),,PropertyState,Parent Property Name
+Parent Property ID,,PropertyState,pm_parent_property_id
+Is this Property Owned or Operated by the US or Canadian Federal Government?,,PropertyState,Federally Owned
+Federal Agency/Department,,PropertyState,Federal Agency
+Irrigated Area,,PropertyState,Irrigated Area
+Irrigated Area Units,,PropertyState,Irrigated Units
+Latitude,,PropertyState,latitude
+Longitude,,PropertyState,longitude
+Jurisdiction ID,,TaxLotState,jurisdiction_tax_lot_id
+Grouping Display Name,,TaxLotState,Grouping Name
+eGRID Subregion Code,,PropertyState,egrid_subregion_code
