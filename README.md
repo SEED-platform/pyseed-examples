@@ -43,6 +43,10 @@ in with the correct credentials. The format of the SEED configuration should con
 
 From the examples directory, run the `seed_*.py` files. The files may require some manual SEED configuration, e.g., creating an organization.
 
+```bash
+
+```
+
 ### TODO
 
-- [ ] TBD
+- [ ] Import audit template files

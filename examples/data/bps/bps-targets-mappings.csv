@@ -1,0 +1,11 @@
+Raw Columns,units,SEED Table,SEED Columns
+Audit Template Building ID,,PropertyState,audit_template_building_id
+Portfolio Manager Building ID,,PropertyState,pm_property_id
+Property Name,,PropertyState,property_name
+Property Type,,PropertyState,property_type
+Address 1,,PropertyState,address_line_1
+Gross Area (SF),ft**2,PropertyState,gross_floor_area
+EUI Target,kBtu/ft**2/year,PropertyState,EUI Target
+EUI Target Year,,PropertyState,EUI Target Year
+GHGI Target,kgCO2e/ft**2/year,PropertyState,GHGI Target
+GHGI Target Year,,PropertyState,GHGI Target Year

@@ -1,0 +1,28 @@
+Raw Columns,units,SEED Table,SEED Columns
+address_1,,PropertyState,address_line_1
+address_2,,PropertyState,address_line_2
+city,,PropertyState,city
+custom_property_id_1_id,,PropertyState,custom_id_1
+custom_property_id_1_name,,PropertyState,Custom ID 1 Name
+energy_star_score,,PropertyState,energy_score
+national_median_site_eui,,PropertyState,National Median Site EUI
+national_median_source_eui,,PropertyState,National Median Source EUI
+parent_property_id,,PropertyState,pm_parent_property_id
+parent_property_name,,PropertyState,Parent Property Name
+period_ending_date,,PropertyState,year_ending
+postal_code,,PropertyState,postal_code
+property_floor_area_buildngs_and_parking,,PropertyState,Gross Floor Area with Parking
+property_floor_area_parking,,PropertyState,Parking Gross Floor Area
+property_id,,PropertyState,pm_property_id
+property_name,,PropertyState,property_name
+site_eui,kBtu/ft**2/year,PropertyState,site_eui
+source_eui,kBtu/ft**2/year,PropertyState,source_eui
+state_province,,PropertyState,state
+total_ghg_emissions,MtCO2e/year,PropertyState,total_ghg_emissions
+total_ghg_emissions_intensity,MtCO2e/ft**2/year,PropertyState,total_ghg_emissions_intensity
+weather_normalized_site_district_steam_use,,PropertyState,Weather Normalized Site District Steam Use
+weather_normalized_site_electricity,,PropertyState,Weather Normalized Site Electricity
+weather_normalized_site_eui,kBtu/ft**2/year,PropertyState,site_eui_weather_normalized
+weather_normalized_site_natural_gas_use,,PropertyState,Weather Normalized Site Natural Gas Use
+weather_normalized_source_eui,kBtu/ft**2/year,PropertyState,source_eui_weather_normalized
+year_built,,PropertyState,year_built
