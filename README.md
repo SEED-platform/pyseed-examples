@@ -4,12 +4,12 @@ This repository contains example scripts to load datasets into SEED and test the
 
 ### Getting Started
 
-To get started, you will need to checkout py-seed (with the branch `add-seed-helpers`) and place the project at the same level as this project. For example:
+To get started, you will need to checkout py-seed or install py-seed. Installing pyseed is easier but limited the ability to update during development. If you checkout py-seed, then place the project at the same level as this project. For example:
 
 ```
 cd ..
 git clone git@github.com:SEED-platform/py-seed.git
-git checkout add-seed-helpers
+git checkout develop
 ```
 
 Then install the poetry-based dependencies. Note that installing a package from GitHub through poetry can cause some issues with updating, therefore, it is easiest (for now) to clone the dependencies manually.

@@ -1,5 +1,3 @@
-# Example to read and sync seed properties with salesforce
-
 # ./manage.py create_test_user_json --username nicholas.long@nrel.gov --file ../py-seed/seed-config.json --pyseed
 # Make sure that the host is localhost and not 127.0.0.1. For some reason the organization endpoints only work on
 # localhost.
@@ -26,4 +24,3 @@ client.upload_and_match_datafile(
     str(data_dir / 'better-mappings.csv'),
     import_meters_if_exist=True,
 )
-

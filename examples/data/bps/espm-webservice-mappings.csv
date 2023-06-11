@@ -2,8 +2,8 @@ Raw Columns,units,SEED Table,SEED Columns
 address_1,,PropertyState,address_line_1
 address_2,,PropertyState,address_line_2
 city,,PropertyState,city
-custom_property_id_1_id,,PropertyState,custom_id_1
-custom_property_id_1_name,,PropertyState,Custom ID 1 Name
+custom_property_id_1_id,,PropertyState,audit_template_building_id
+custom_property_id_1_name,,PropertyState,Audit Template ID
 energy_star_score,,PropertyState,energy_score
 national_median_site_eui,,PropertyState,National Median Site EUI
 national_median_source_eui,,PropertyState,National Median Source EUI
