@@ -24,11 +24,14 @@ packages = [
 
 [tool.poetry.dependencies]
 python = ">=3.9, <3.12"
-py-seed = "^0.3.0"
+py-seed = "^0.4.2"
 # py-seed = { github = "seed-platform/py-seed", branch = "develop" }
 # py-seed = { path = "../py-seed", develop = true}
+pandas = "~2.0"
 jupyterlab = "~4.0"
 usaddress = ">0"
+openpyxl = "^3.0.10"
+
 
 [tool.poetry.dev-dependencies]
 autopep8 = "~2.0"

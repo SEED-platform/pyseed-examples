@@ -9,6 +9,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# to_upload files that are dynamically generated
+examples/data/public_disclosure/to_upload
+
 # C extensions
 *.so
 

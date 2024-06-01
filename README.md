@@ -28,7 +28,7 @@ SEED needs to be configured for accessing its web application.
 Copy `seed-config-example.json` to `seed-config-dev.json` and fill
 in with the correct credentials. The format of the SEED configuration should contain the following:
 
-```
+```json
 {
     "name": "seed_api_test",
     "base_url": "https://dev1.seed-platform.org",
