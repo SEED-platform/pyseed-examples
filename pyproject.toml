@@ -32,6 +32,8 @@ jupyterlab = "~4.0"
 usaddress = ">0"
 openpyxl = "^3.0.10"
 
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^3.7.0"
 
 [tool.poetry.dev-dependencies]
 autopep8 = "~2.0"

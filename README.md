@@ -41,7 +41,7 @@ in with the correct credentials. The format of the SEED configuration should con
 
 ### Running Examples
 
-There are two options for running the examples, either open the `ipynb` files or execute the scripts in the 
+There are two options for running the examples, either open the `ipynb` files or execute the scripts in the
 examples directory. The `ipynb` files provide more flexibility to understand how the py-seed library works.
 
 ### TODO
