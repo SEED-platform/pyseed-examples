@@ -1,0 +1,53 @@
+Raw Columns,units,SEED Table,SEED Columns
+X,,PropertyState,Unused X
+Y,,PropertyState,Unused Y
+OBJECTID,,PropertyState,Object ID
+PID,,PropertyState,pm_property_id
+SSL,,TaxLotState,jurisdiction_tax_lot_id
+PMPROPERTYID,,PropertyState,PM Property Old
+PROPERTYNAME,,PropertyState,property_name
+PMPARENTPROPERTYID,,PropertyState,pm_parent_property_id
+PARENTPROPERTYNAME,,PropertyState,parent_property_name
+REPORTINGYEAR,,PropertyState,Year Ending
+REPORTSTATUS,,PropertyState,Reporting Status
+ADDRESSOFRECORD,,PropertyState,address_line_1
+OWNEROFRECORD,,PropertyState,owner
+WARD,,PropertyState,Ward
+REPORTEDADDRESS,,PropertyState,Reported Address
+CITY,,PropertyState,city
+STATE,,PropertyState,state
+POSTALCODE,,PropertyState,postal_code
+YEARBUILT,,PropertyState,year_built
+PRIMARYPROPERTYTYPE_SELFSELECT,,PropertyState,property_type
+PRIMARYPROPERTYTYPE_EPACALC,,PropertyState,Property Tyoe (EPA)
+TAXRECORDFLOORAREA,ft**2,PropertyState,gross_floor_area
+REPORTEDBUILDINGGROSSFLOORAREA,ft**2,PropertyState,gross_floor_area_reported
+ENERGYSTARSCORE,,PropertyState,energy_score
+SITEEUI_KBTU_FT,kBtu/ft**2/year,PropertyState,site_eui
+WEATHERNORMALZEDSITEEUI_KBTUFT,kBtu/ft**2/year,PropertyState,site_eui_weather_normalized
+SOURCEEUI_KBTU_FT,kBtu/ft**2/year,PropertyState,source_eui
+WEATHERNORMALZEDSOUREUI_KBTUFT,kBtu/ft**2/year,PropertyState,source_eui_weather_normalized
+TOTGHGEMISSIONS_METRICTONSCO2E,MtCO2e/year,PropertyState,total_ghg_emissions
+TOTGHGEMISSINTENSITY_KGCO2EFT,kgCO2e/ft**2/year,PropertyState,total_ghg_emissions_intensity
+WATERSCORE_MFPROPERTIES,,PropertyState,Water Score (Multifamily)
+WATERUSE_ALLWATERSOURCES_KGAL,kGal,PropertyState,Water Use
+NATURALGASUSE_THERMS,therms,PropertyState,Natural Gas Use
+FUELOILANDDIESELFUELUSEKBTU,kBtu,PropertyState,Fuel Oil and Diesel
+METEREDAREAS_ENERGY,,PropertyState,Metered Areas (Energy)
+METEREDAREAS_WATER,,PropertyState,Metered Areas (Water)
+ELECTRICITYUSE_RENEWABLE_KWH,kWh,PropertyState,Electricity Use (Renewable)
+ELECTRICITYUSE_GRID_KWH,kWh,PropertyState,Electricity Use (Grid)
+DISTRCHILLEDWATER_KBTU,kBtu,PropertyState,Annual District Chilled Water [kBtu]
+DISTRHOTWATER_KBTU,kBtu,PropertyState,Annual District Hot Water [kBtu]
+DISTRSTEAM_KBTU,kBtu,PropertyState,Annual Steam [kBtu]
+LATITUDE,,PropertyState,latitude
+LONGITUDE,,PropertyState,longitude
+ADDRESSID,,PropertyState,Address ID
+XCOORD,,PropertyState,Unused XCOORD
+YCOORD,,PropertyState,Unused YCOORD
+GIS_LAST_MOD_DTTM,,PropertyState,Unused GIS_LAST_MOD_DTTM
+LASTUPDATE,,PropertyState,Unused LASTUPDATE
+BEPS_METRIC_TYPE,,PropertyState,BPS Metric Type
+BEPS_ENERGYSTAR,,PropertyState,BPS Target Energy Star Score
+BEPS_SOURCEEUI,kBtu/ft**2/year,PropertyState,BPS Target Normalized Source EUI
+PROPERTY_BEPS_METRIC_YEAR,,PropertyState,BPS Metric Year
