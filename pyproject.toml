@@ -1,45 +1,42 @@
-[tool.poetry]
+[project]
 name = "pyseed-examples"
 version = "0.1.0"
 description = "Example data and Python files for loading data into SEED through py-seed API"
-authors = ["Nicholas Long <nicholas.long@nrel.gov>"]
-license = "BSD-4-Clause"
-
 readme = "README.md"
+license = "BSD-4-Clause"
+authors = [{ name = "Nicholas Long", email = "nicholas.long@nlr.gov" }]
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "jupyterlab>=4.4,<5",
+    "openpyxl>=3.1.5,<4",
+    "pandas>=2.3,<3",
+    "py-seed>=0.4.2",
+    "usaddress>=0.5",
+]
 
-homepage = "https://seed-platform.org"
-repository = "https://github.com/seed-platform/tbd"
-documentation = "https://seed-platform.org"
 keywords = ["SEED Platform", "Building Benchmarking"]
 classifiers = [
     "Development Status :: 4 - Beta",
     "Intended Audience :: Developers",
-    "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
-]
-packages = [
-    { include = "examples"}
+    "Programming Language :: Python :: 3.12",
 ]
 
-[tool.poetry.dependencies]
-python = ">=3.9, <3.12"
-py-seed = "^0.4.2"
-# py-seed = { github = "seed-platform/py-seed", branch = "develop" }
-# py-seed = { path = "../py-seed", develop = true}
-pandas = "~2.0"
-jupyterlab = "~4.0"
-usaddress = ">0"
-openpyxl = "^3.0.10"
+[project.urls]
+Homepage = "https://seed-platform.org"
+Documentation = "https://seed-platform.org"
+Repository = "https://github.com/SEED-platform/pyseed-examples"
 
-[tool.poetry.dev-dependencies]
-autopep8 = "~2.0"
-flake8 = "6.0.0"
-mypy = "~1.3"
-pre-commit = "3.7.0"
-pytest = "^7.1.2"
-pytest-cov = "^4.1.0"
+[dependency-groups]
+dev = [
+    "autopep8>=2.3.2",
+    "flake8>=7.3.0",
+    "mypy>=1.17.0",
+    "pre-commit>=4.3.0",
+    "pytest>=8.4.0",
+    "pytest-cov>=6.2.0",
+]
 
-[build-system]
-requires = ["poetry-core>=1.0.0"]
-build-backend = "poetry.core.masonry.api"
+[tool.uv]
+package = false
