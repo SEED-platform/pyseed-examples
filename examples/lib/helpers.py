@@ -1,3 +1,4 @@
+import calendar
 from itertools import islice
 
 
@@ -15,7 +16,7 @@ def chunks(data, size):
 def map_months_to_date(year, values=None):
     month_map = {
         "JANUARY": {"start_time": f"{year}-01-01", "end_time": f"{year}-01-31"},
-        "FEBRUARY": {"start_time": f"{year}-02-01", "end_time": f"{year}-02-{29 if (year % 4) == 0 else 28}"},
+        "FEBRUARY": {"start_time": f"{year}-02-01", "end_time": f"{year}-02-{29 if calendar.isleap(year) else 28}"},
         "MARCH": {"start_time": f"{year}-03-01", "end_time": f"{year}-03-31"},
         "APRIL": {"start_time": f"{year}-04-01", "end_time": f"{year}-04-30"},
         "MAY": {"start_time": f"{year}-05-01", "end_time": f"{year}-05-31"},
@@ -42,12 +43,12 @@ def map_months_to_date(year, values=None):
         # "ELECTRICITYUSE_KBTU_MARCH": 2728590.7,
 
         for key, value in values.items():
-            for month in month_map:
+            for month, month_value in month_map.items():
                 if month in key:
-                    month_map[month]["reading"] = value
-                    month_map[month]["source_unit"] = "kBtu (Thousand BTU)"
-                    month_map[month]["conversion_factor"] = 1
-                    results.append(month_map[month])
+                    month_value["reading"] = value
+                    month_value["source_unit"] = "kBtu (Thousand BTU)"
+                    month_value["conversion_factor"] = 1
+                    results.append(month_value)
     else:
         for key, value in month_map.items():
             results.append(value)

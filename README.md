@@ -12,11 +12,12 @@ git clone git@github.com:SEED-platform/py-seed.git
 git checkout develop
 ```
 
-Then install the poetry-based dependencies. Note that installing a package from GitHub through poetry can cause some issues with updating, therefore, it is easiest (for now) to clone the dependencies manually.
+This repository uses uv for environment and dependency management.
+
+Supported Python versions are 3.10 through 3.12.
 
 ```
-pip install poetry
-poetry install
+uv sync --all-groups
 ```
 
 ### Configuring

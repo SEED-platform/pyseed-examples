@@ -1,4 +1,4 @@
-# ./manage.py create_test_user_json --username nicholas.long@nrel.gov --file ../py-seed/seed-config.json --pyseed
+# ./manage.py create_test_user_json --username nicholas.long@nlr.gov --file ../py-seed/seed-config.json --pyseed
 # Make sure that the host is localhost and not 127.0.0.1. For some reason the organization endpoints only work on
 # localhost.
 

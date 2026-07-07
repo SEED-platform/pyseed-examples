@@ -1,6 +1,6 @@
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.5.0
+    rev: v6.0.0
     hooks:
       - id: check-ast
       - id: check-added-large-files
@@ -18,20 +18,18 @@ repos:
       - id: check-executables-have-shebangs
       - id: check-merge-conflict
       - id: check-xml
-      - id: check-yaml
       - id: debug-statements
-      - id: end-of-file-fixer
       - id: mixed-line-ending
       - id: pretty-format-json
         args: ['--autofix', '--no-sort-keys']
         exclude: examples/.*.ipynb
   - repo: https://github.com/kynan/nbstripout
-    rev: 0.6.1
+    rev: 0.9.1
     hooks:
       - id: nbstripout
   # https://docs.astral.sh/ruff/integrations/#pre-commit
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.3.4
+    rev: v0.15.20
     hooks:
       # Run the linter
       - id: ruff
