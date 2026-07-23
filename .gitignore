@@ -104,3 +104,9 @@ salesforce-config*.json
 !salesforce-config-example.json
 seed-config*.json
 !seed-config-example.json
+
+# Generated artifacts from running example/output scripts
+# (scripts themselves stay tracked; their generated data/images/pdfs do not)
+/outputs/
+/tmp/
+/output/
