@@ -109,18 +109,4 @@ seed-config*.json
 # (scripts themselves stay tracked; their generated data/images/pdfs do not)
 /outputs/
 /tmp/
-/output/data/
-/output/images/
-/output/pdf/
-/output/openstudio_1620/
-/output/openstudio_mcp_runs/
-
-# One-off generated report artifacts written to the repo root
-/dc_bps_2258_25th_place_ne_benchmark_data.json
-/dc_bps_2258_25th_place_ne_benchmark_infographic.svg
-/org412_cycle656_column_characteristics_infographic.png
-/org412_cycle656_column_characteristics_infographic.svg
-/org412_cycle656_column_characteristics_infographic_nrel_style.png
-/org412_cycle656_column_characteristics_infographic_nrel_style.svg
-/org412_cycle656_column_summary.json
-/org412_cycle656_profile316_better.json
+/output/
