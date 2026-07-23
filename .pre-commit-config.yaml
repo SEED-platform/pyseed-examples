@@ -27,6 +27,7 @@ repos:
     rev: 0.9.1
     hooks:
       - id: nbstripout
+        args: ["--extra-keys", "metadata.kernelspec metadata.language_info"]
   # https://docs.astral.sh/ruff/integrations/#pre-commit
   - repo: https://github.com/astral-sh/ruff-pre-commit
     rev: v0.15.20
